@@ -1,0 +1,6 @@
+heartbeat_dynamodb_table='heartbeats'
+heartbeat_timeout=60
+notification_medium='telegram'
+notification_message='Heartbeat timeout. Possible internet interruption or power cut.'
+notification_recipient_id=-1234 #telegram chat/group chat id
+notification_authorization_info='1234567890:ABCdeF1_abcdefghijklmnopqrstuvwxyzA' #telegram bot token
